@@ -22,3 +22,6 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+creating a todo list application using typescript.
+using snowpack bundler as browser does not understand basic imports from node modules so bundler packs the features to browser for specific imports which we use. in this case we are using uuid import.

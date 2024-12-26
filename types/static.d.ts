@@ -57,3 +57,9 @@ declare module '*.png' {
 }
 
 /* CUSTOM: ADD YOUR OWN HERE */
+export type Task = {
+  id: string;
+  title: string;
+  completed: boolean;
+  createdAt: Date;
+}
